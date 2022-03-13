@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.1500
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DriverSchoool", "DriverSchoool\DriverSchoool.csproj", "{FF1893D2-6F98-4BE1-B80B-8049D77F3BAC}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FF1893D2-6F98-4BE1-B80B-8049D77F3BAC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FF1893D2-6F98-4BE1-B80B-8049D77F3BAC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FF1893D2-6F98-4BE1-B80B-8049D77F3BAC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FF1893D2-6F98-4BE1-B80B-8049D77F3BAC}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {EB9C259E-181A-4363-91F8-DD076C43DF9A}
+	EndGlobalSection
+EndGlobal

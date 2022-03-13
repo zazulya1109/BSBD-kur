@@ -1,0 +1,93 @@
+C:\Users\Аддикт\source\repos\DriverSchoool\DriverSchoool\bin\Debug\DriverSchoool.exe.config
+C:\Users\Аддикт\source\repos\DriverSchoool\DriverSchoool\bin\Debug\DriverSchoool.exe
+C:\Users\Аддикт\source\repos\DriverSchoool\DriverSchoool\bin\Debug\DriverSchoool.pdb
+C:\Users\Аддикт\source\repos\DriverSchoool\DriverSchoool\obj\Debug\DriverSchoool.csprojAssemblyReference.cache
+C:\Users\Аддикт\source\repos\DriverSchoool\DriverSchoool\obj\Debug\DriverSchoool.FormMain.resources
+C:\Users\Аддикт\source\repos\DriverSchoool\DriverSchoool\obj\Debug\DriverSchoool.Properties.Resources.resources
+C:\Users\Аддикт\source\repos\DriverSchoool\DriverSchoool\obj\Debug\DriverSchoool.csproj.GenerateResource.cache
+C:\Users\Аддикт\source\repos\DriverSchoool\DriverSchoool\obj\Debug\DriverSchoool.csproj.CoreCompileInputs.cache
+C:\Users\Аддикт\source\repos\DriverSchoool\DriverSchoool\obj\Debug\DriverSchoool.exe
+C:\Users\Аддикт\source\repos\DriverSchoool\DriverSchoool\obj\Debug\DriverSchoool.pdb
+C:\Users\Аддикт\source\repos\DriverSchoool\DriverSchoool\obj\Debug\DriverSchoool.FormStudents.resources
+C:\Users\Аддикт\source\repos\DriverSchoool\DriverSchoool\obj\Debug\DriverSchoool.FormTeacher.resources
+C:\Users\Аддикт\source\repos\DriverSchoool\DriverSchoool\obj\Debug\DriverSchoool.FormZ.resources
+C:\Users\Аддикт\source\repos\DriverSchoool\DriverSchoool\obj\Debug\DriverSchoool.FormGroup.resources
+C:\Users\Аддикт\source\repos\DriverSchoool\DriverSchoool\obj\Debug\DriverSchoool.FormSQL.resources
+C:\Users\Аддикт\source\repos\DriverSchoool\DriverSchoool\bin\Debug\System.Data.SQLite.dll
+C:\Users\Аддикт\source\repos\DriverSchoool\DriverSchoool\obj\Debug\DriverSchoool.FormAuth.resources
+C:\Users\Аддикт\source\repos\DriverSchoool\DriverSchoool\obj\Debug\DriverSchoool.csproj.CopyComplete
+C:\Users\Аддикт\source\repos\DriverSchoool\DriverSchoool\obj\Debug\DriverSchoool.FormMain1.resources
+C:\Users\Аддикт\source\repos\DriverSchoool\DriverSchoool\obj\Debug\DriverSchoool.FormR.resources
+C:\Users\Аддикт\source\repos\DriverSchoool\DriverSchoool\obj\Debug\DriverSchoool.FormINF.resources
+C:\Users\Аддикт\source\repos\DriverSchoool\DriverSchoool\obj\Debug\DriverSchoool.FormMain2.resources
+C:\Users\Аддикт\source\repos\DriverSchoool\DriverSchoool\obj\Debug\DriverSchoool.FormY.resources
+C:\Users\Аддикт\source\repos\DriverSchoool\DriverSchoool\obj\Debug\DriverSchoool.FormRB.resources
+C:\Users\Аддикт\source\repos\DriverSchoool\DriverSchoool\obj\Debug\DriverSchoool.FormG.resources
+C:\Users\Анастасия\Desktop\DriverSchoool\DriverSchoool\bin\Debug\DriverSchoool.exe.config
+C:\Users\Анастасия\Desktop\DriverSchoool\DriverSchoool\bin\Debug\DriverSchoool.exe
+C:\Users\Анастасия\Desktop\DriverSchoool\DriverSchoool\bin\Debug\DriverSchoool.pdb
+C:\Users\Анастасия\Desktop\DriverSchoool\DriverSchoool\obj\Debug\DriverSchoool.csprojAssemblyReference.cache
+C:\Users\Анастасия\Desktop\DriverSchoool\DriverSchoool\obj\Debug\DriverSchoool.FormAuth.resources
+C:\Users\Анастасия\Desktop\DriverSchoool\DriverSchoool\obj\Debug\DriverSchoool.FormG.resources
+C:\Users\Анастасия\Desktop\DriverSchoool\DriverSchoool\obj\Debug\DriverSchoool.FormGroup.resources
+C:\Users\Анастасия\Desktop\DriverSchoool\DriverSchoool\obj\Debug\DriverSchoool.FormINF.resources
+C:\Users\Анастасия\Desktop\DriverSchoool\DriverSchoool\obj\Debug\DriverSchoool.FormMain.resources
+C:\Users\Анастасия\Desktop\DriverSchoool\DriverSchoool\obj\Debug\DriverSchoool.FormMain1.resources
+C:\Users\Анастасия\Desktop\DriverSchoool\DriverSchoool\obj\Debug\DriverSchoool.FormMain2.resources
+C:\Users\Анастасия\Desktop\DriverSchoool\DriverSchoool\obj\Debug\DriverSchoool.FormR.resources
+C:\Users\Анастасия\Desktop\DriverSchoool\DriverSchoool\obj\Debug\DriverSchoool.FormRB.resources
+C:\Users\Анастасия\Desktop\DriverSchoool\DriverSchoool\obj\Debug\DriverSchoool.FormSQL.resources
+C:\Users\Анастасия\Desktop\DriverSchoool\DriverSchoool\obj\Debug\DriverSchoool.FormStudents.resources
+C:\Users\Анастасия\Desktop\DriverSchoool\DriverSchoool\obj\Debug\DriverSchoool.FormTeacher.resources
+C:\Users\Анастасия\Desktop\DriverSchoool\DriverSchoool\obj\Debug\DriverSchoool.FormY.resources
+C:\Users\Анастасия\Desktop\DriverSchoool\DriverSchoool\obj\Debug\DriverSchoool.FormZ.resources
+C:\Users\Анастасия\Desktop\DriverSchoool\DriverSchoool\obj\Debug\DriverSchoool.Properties.Resources.resources
+C:\Users\Анастасия\Desktop\DriverSchoool\DriverSchoool\obj\Debug\DriverSchoool.csproj.GenerateResource.cache
+C:\Users\Анастасия\Desktop\DriverSchoool\DriverSchoool\obj\Debug\DriverSchoool.csproj.CoreCompileInputs.cache
+C:\Users\Анастасия\Desktop\DriverSchoool\DriverSchoool\obj\Debug\DriverSchoool.csproj.CopyComplete
+C:\Users\Анастасия\Desktop\DriverSchoool\DriverSchoool\obj\Debug\DriverSchoool.exe
+C:\Users\Анастасия\Desktop\DriverSchoool\DriverSchoool\obj\Debug\DriverSchoool.pdb
+C:\Users\Анастасия\Desktop\DriverSchoool\DriverSchoool\obj\Debug\DriverSchoool.Студент.DNStudent.resources
+C:\Users\Анастасия\Desktop\DriverSchoool\DriverSchoool\obj\Debug\DriverSchoool.Студент.FormStudent.resources
+C:\Users\Анастасия\Desktop\DriverSchoool\DriverSchoool\obj\Debug\DriverSchoool.Распоряжение.DNRaspore.resources
+C:\Users\Анастасия\Desktop\DriverSchoool\DriverSchoool\obj\Debug\DriverSchoool.Заселенный_студент.DNZaselenei.resources
+C:\Users\Анастасия\Desktop\DriverSchoool\DriverSchoool\obj\Debug\DriverSchoool.Комната.DNKomnata.resources
+C:\Users\Анастасия\Desktop\DriverSchoool\DriverSchoool\obj\Debug\DriverSchoool.Заявление.DNZaivlenie.resources
+C:\Users\Анастасия\Desktop\DriverSchoool\DriverSchoool\obj\Debug\DriverSchoool.общага.DNob.resources
+C:\Users\Анастасия\Desktop\DriverSchoool\DriverSchoool\obj\Debug\DriverSchoool.ZaprosiOdanih.resources
+C:\Users\Анастасия\Desktop\DriverSchoool\DriverSchoool\obj\Debug\DriverSchoool.Ismenenie.resources
+C:\Users\Анастасия\Desktop\DriverSchoool\DriverSchoool\obj\Debug\DriverSchoool.Operators.resources
+E:\Uni\3 курс\6 семестр\БСБД курсач\прога\DriverSchoool\DriverSchoool\bin\Debug\DriverSchoool.exe.config
+E:\Uni\3 курс\6 семестр\БСБД курсач\прога\DriverSchoool\DriverSchoool\bin\Debug\DriverSchoool.exe
+E:\Uni\3 курс\6 семестр\БСБД курсач\прога\DriverSchoool\DriverSchoool\bin\Debug\DriverSchoool.pdb
+E:\Uni\3 курс\6 семестр\БСБД курсач\прога\DriverSchoool\DriverSchoool\obj\Debug\DriverSchoool.csprojAssemblyReference.cache
+E:\Uni\3 курс\6 семестр\БСБД курсач\прога\DriverSchoool\DriverSchoool\obj\Debug\DriverSchoool.FormAuth.resources
+E:\Uni\3 курс\6 семестр\БСБД курсач\прога\DriverSchoool\DriverSchoool\obj\Debug\DriverSchoool.Ismenenie.resources
+E:\Uni\3 курс\6 семестр\БСБД курсач\прога\DriverSchoool\DriverSchoool\obj\Debug\DriverSchoool.Operators.resources
+E:\Uni\3 курс\6 семестр\БСБД курсач\прога\DriverSchoool\DriverSchoool\obj\Debug\DriverSchoool.ZaprosiOdanih.resources
+E:\Uni\3 курс\6 семестр\БСБД курсач\прога\DriverSchoool\DriverSchoool\obj\Debug\DriverSchoool.Заселенный_студент.DNZaselenei.resources
+E:\Uni\3 курс\6 семестр\БСБД курсач\прога\DriverSchoool\DriverSchoool\obj\Debug\DriverSchoool.Заявление.DNZaivlenie.resources
+E:\Uni\3 курс\6 семестр\БСБД курсач\прога\DriverSchoool\DriverSchoool\obj\Debug\DriverSchoool.Комната.DNKomnata.resources
+E:\Uni\3 курс\6 семестр\БСБД курсач\прога\DriverSchoool\DriverSchoool\obj\Debug\DriverSchoool.общага.DNob.resources
+E:\Uni\3 курс\6 семестр\БСБД курсач\прога\DriverSchoool\DriverSchoool\obj\Debug\DriverSchoool.Распоряжение.DNRaspore.resources
+E:\Uni\3 курс\6 семестр\БСБД курсач\прога\DriverSchoool\DriverSchoool\obj\Debug\DriverSchoool.Студент.DNStudent.resources
+E:\Uni\3 курс\6 семестр\БСБД курсач\прога\DriverSchoool\DriverSchoool\obj\Debug\DriverSchoool.Студент.FormStudent.resources
+E:\Uni\3 курс\6 семестр\БСБД курсач\прога\DriverSchoool\DriverSchoool\obj\Debug\DriverSchoool.FormG.resources
+E:\Uni\3 курс\6 семестр\БСБД курсач\прога\DriverSchoool\DriverSchoool\obj\Debug\DriverSchoool.FormGroup.resources
+E:\Uni\3 курс\6 семестр\БСБД курсач\прога\DriverSchoool\DriverSchoool\obj\Debug\DriverSchoool.FormINF.resources
+E:\Uni\3 курс\6 семестр\БСБД курсач\прога\DriverSchoool\DriverSchoool\obj\Debug\DriverSchoool.FormMain.resources
+E:\Uni\3 курс\6 семестр\БСБД курсач\прога\DriverSchoool\DriverSchoool\obj\Debug\DriverSchoool.FormMain1.resources
+E:\Uni\3 курс\6 семестр\БСБД курсач\прога\DriverSchoool\DriverSchoool\obj\Debug\DriverSchoool.FormMain2.resources
+E:\Uni\3 курс\6 семестр\БСБД курсач\прога\DriverSchoool\DriverSchoool\obj\Debug\DriverSchoool.FormR.resources
+E:\Uni\3 курс\6 семестр\БСБД курсач\прога\DriverSchoool\DriverSchoool\obj\Debug\DriverSchoool.FormRB.resources
+E:\Uni\3 курс\6 семестр\БСБД курсач\прога\DriverSchoool\DriverSchoool\obj\Debug\DriverSchoool.FormSQL.resources
+E:\Uni\3 курс\6 семестр\БСБД курсач\прога\DriverSchoool\DriverSchoool\obj\Debug\DriverSchoool.FormStudents.resources
+E:\Uni\3 курс\6 семестр\БСБД курсач\прога\DriverSchoool\DriverSchoool\obj\Debug\DriverSchoool.FormTeacher.resources
+E:\Uni\3 курс\6 семестр\БСБД курсач\прога\DriverSchoool\DriverSchoool\obj\Debug\DriverSchoool.FormY.resources
+E:\Uni\3 курс\6 семестр\БСБД курсач\прога\DriverSchoool\DriverSchoool\obj\Debug\DriverSchoool.FormZ.resources
+E:\Uni\3 курс\6 семестр\БСБД курсач\прога\DriverSchoool\DriverSchoool\obj\Debug\DriverSchoool.Properties.Resources.resources
+E:\Uni\3 курс\6 семестр\БСБД курсач\прога\DriverSchoool\DriverSchoool\obj\Debug\DriverSchoool.csproj.GenerateResource.cache
+E:\Uni\3 курс\6 семестр\БСБД курсач\прога\DriverSchoool\DriverSchoool\obj\Debug\DriverSchoool.csproj.CoreCompileInputs.cache
+E:\Uni\3 курс\6 семестр\БСБД курсач\прога\DriverSchoool\DriverSchoool\obj\Debug\DriverSchoool.csproj.CopyComplete
+E:\Uni\3 курс\6 семестр\БСБД курсач\прога\DriverSchoool\DriverSchoool\obj\Debug\DriverSchoool.exe
+E:\Uni\3 курс\6 семестр\БСБД курсач\прога\DriverSchoool\DriverSchoool\obj\Debug\DriverSchoool.pdb

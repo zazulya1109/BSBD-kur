@@ -1,0 +1,449 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{FF1893D2-6F98-4BE1-B80B-8049D77F3BAC}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>DriverSchoool</RootNamespace>
+    <AssemblyName>DriverSchoool</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.SQLite">
+      <HintPath>..\..\..\..\Documents\sqlite\System.Data.SQLite.dll</HintPath>
+    </Reference>
+    <Reference Include="System.DirectoryServices" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Class2.cs" />
+    <Compile Include="driverSchoolDataSet.cs">
+      <DependentUpon>driverSchoolDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="driverSchoolDataSet.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>driverSchoolDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="FormAuth.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormAuth.Designer.cs">
+      <DependentUpon>FormAuth.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Ismenenie.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Ismenenie.Designer.cs">
+      <DependentUpon>Ismenenie.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ne_nadoDataSet1.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>ne_nadoDataSet1.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Operators.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Operators.Designer.cs">
+      <DependentUpon>Operators.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ZaprosiOdanih.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ZaprosiOdanih.Designer.cs">
+      <DependentUpon>ZaprosiOdanih.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Заселенный студент\DNZaselenei.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Заселенный студент\DNZaselenei.Designer.cs">
+      <DependentUpon>DNZaselenei.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Заселенный студент\FormZaselenei.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Заселенный студент\FormZaselenei.Designer.cs">
+      <DependentUpon>FormZaselenei.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Заявление\DNZaivlenie.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Заявление\DNZaivlenie.Designer.cs">
+      <DependentUpon>DNZaivlenie.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Заявление\FormZaivlenie.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Заявление\FormZaivlenie.Designer.cs">
+      <DependentUpon>FormZaivlenie.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Комната\DNKomnata.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Комната\DNKomnata.Designer.cs">
+      <DependentUpon>DNKomnata.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Комната\FormKomnata.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Комната\FormKomnata.Designer.cs">
+      <DependentUpon>FormKomnata.cs</DependentUpon>
+    </Compile>
+    <Compile Include="общага\DNob.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="общага\DNob.Designer.cs">
+      <DependentUpon>DNob.cs</DependentUpon>
+    </Compile>
+    <Compile Include="общага\Ob.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="общага\Ob.Designer.cs">
+      <DependentUpon>Ob.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Распоряжение\DNRaspore.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Распоряжение\DNRaspore.Designer.cs">
+      <DependentUpon>DNRaspore.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Распоряжение\FormRaspore.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Распоряжение\FormRaspore.Designer.cs">
+      <DependentUpon>FormRaspore.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Студент\FormStudent.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Студент\FormStudent.Designer.cs">
+      <DependentUpon>FormStudent.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Студент\DNStudent.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Студент\DNStudent.Designer.cs">
+      <DependentUpon>DNStudent.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ЯСтарое\FormG.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ЯСтарое\FormG.Designer.cs">
+      <DependentUpon>FormG.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ЯСтарое\FormGroup.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ЯСтарое\FormGroup.Designer.cs">
+      <DependentUpon>FormGroup.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ЯСтарое\FormINF.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ЯСтарое\FormINF.Designer.cs">
+      <DependentUpon>FormINF.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Home\FormMain.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Home\FormMain.Designer.cs">
+      <DependentUpon>FormMain.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Home\FormMain1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Home\FormMain1.Designer.cs">
+      <DependentUpon>FormMain1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Home\FormMain2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Home\FormMain2.Designer.cs">
+      <DependentUpon>FormMain2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ЯСтарое\FormR.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ЯСтарое\FormR.Designer.cs">
+      <DependentUpon>FormR.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ЯСтарое\FormRB.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ЯСтарое\FormRB.Designer.cs">
+      <DependentUpon>FormRB.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ЯСтарое\FormSQL.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ЯСтарое\FormSQL.Designer.cs">
+      <DependentUpon>FormSQL.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ЯСтарое\FormStudents.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ЯСтарое\FormStudents.Designer.cs">
+      <DependentUpon>FormStudents.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ЯСтарое\FormTeacher.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ЯСтарое\FormTeacher.Designer.cs">
+      <DependentUpon>FormTeacher.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ЯСтарое\FormY.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ЯСтарое\FormY.Designer.cs">
+      <DependentUpon>FormY.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ЯСтарое\FormZ.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ЯСтарое\FormZ.Designer.cs">
+      <DependentUpon>FormZ.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ne_nadoDataSet.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>ne_nadoDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="FormAuth.resx">
+      <DependentUpon>FormAuth.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Ismenenie.resx">
+      <DependentUpon>Ismenenie.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Operators.resx">
+      <DependentUpon>Operators.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ZaprosiOdanih.resx">
+      <DependentUpon>ZaprosiOdanih.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Заселенный студент\DNZaselenei.resx">
+      <DependentUpon>DNZaselenei.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Заявление\DNZaivlenie.resx">
+      <DependentUpon>DNZaivlenie.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Комната\DNKomnata.resx">
+      <DependentUpon>DNKomnata.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="общага\DNob.resx">
+      <DependentUpon>DNob.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Распоряжение\DNRaspore.resx">
+      <DependentUpon>DNRaspore.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Студент\DNStudent.resx">
+      <DependentUpon>DNStudent.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Студент\FormStudent.resx">
+      <DependentUpon>FormStudent.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ЯСтарое\FormG.resx">
+      <DependentUpon>FormG.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ЯСтарое\FormGroup.resx">
+      <DependentUpon>FormGroup.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ЯСтарое\FormINF.resx">
+      <DependentUpon>FormINF.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Home\FormMain.resx">
+      <DependentUpon>FormMain.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Home\FormMain1.resx">
+      <DependentUpon>FormMain1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Home\FormMain2.resx">
+      <DependentUpon>FormMain2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ЯСтарое\FormR.resx">
+      <DependentUpon>FormR.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ЯСтарое\FormRB.resx">
+      <DependentUpon>FormRB.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ЯСтарое\FormSQL.resx">
+      <DependentUpon>FormSQL.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ЯСтарое\FormStudents.resx">
+      <DependentUpon>FormStudents.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ЯСтарое\FormTeacher.resx">
+      <DependentUpon>FormTeacher.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ЯСтарое\FormY.resx">
+      <DependentUpon>FormY.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ЯСтарое\FormZ.resx">
+      <DependentUpon>FormZ.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <None Include="driverSchoolDataSet.xsc">
+      <DependentUpon>driverSchoolDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="driverSchoolDataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>driverSchoolDataSet.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="driverSchoolDataSet.xss">
+      <DependentUpon>driverSchoolDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="ne_nadoDataSet.xsc">
+      <DependentUpon>ne_nadoDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="ne_nadoDataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>ne_nadoDataSet.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="ne_nadoDataSet.xss">
+      <DependentUpon>ne_nadoDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="ne_nadoDataSet1.xsc">
+      <DependentUpon>ne_nadoDataSet1.xsd</DependentUpon>
+    </None>
+    <None Include="ne_nadoDataSet1.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>ne_nadoDataSet1.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="ne_nadoDataSet1.xss">
+      <DependentUpon>ne_nadoDataSet1.xsd</DependentUpon>
+    </None>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-выход-100.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-о-нас-100.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-учитель-96.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-студенты-128.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-сохранить-и-закрыть-64.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-сохранить-100.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-поиск-128.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\1-760x450.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\1-760x4501.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\unnamed.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Дизайн без названия %281%291.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\scale_1200.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\2557.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\12.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\7.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Admin\" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\4.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\5.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\6.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\10.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\9.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\8.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\_rotator.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\1254078072_10000001.jpg" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
